@@ -1,0 +1,13 @@
+<templateSet group="PHP">
+  <template name="prir" value="echo '&lt;pre&gt;';&#10;print_r($END$);&#10;die;" description="echo pre and print_r" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="fori" value="for($i$ = 0; $i$ &lt; $END$; $i$++){&#10;    $END$&#10;}" description="for($i)" toReformat="false" toShortenFQNames="true">
+    <variable name="i" expression="" defaultValue="i" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>

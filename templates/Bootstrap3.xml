@@ -1,0 +1,8 @@
+<templateSet group="Bootstrap3">
+  <template name="bs3-dismissable-alert:danger" value="&lt;div class=&quot;alert alert-danger alert-dismissible&quot; role=&quot;alert&quot;&gt;&#10;  &lt;button type=&quot;button&quot; class=&quot;close&quot; data-dismiss=&quot;alert&quot;&gt;&lt;span aria-hidden=&quot;true&quot;&gt;&amp;times;&lt;/span&gt;&lt;span class=&quot;sr-only&quot;&gt;Close&lt;/span&gt;&lt;/button&gt;&#10;  &lt;strong&gt;Warning!&lt;/strong&gt; Better check yourself, you're not looking too good.&#10;&lt;/div&gt;$END$" description="Dismissable alert (danger)" toReformat="true" toShortenFQNames="false">
+    <context>
+      <option name="GSP" value="true" />
+      <option name="JSP" value="true" />
+    </context>
+  </template>
+</templateSet>

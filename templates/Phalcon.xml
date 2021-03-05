@@ -1,0 +1,32 @@
+<templateSet group="Phalcon">
+  <template name="$thtag" value="$this-&gt;tag-&gt;$END$" description="$this-&gt;tag-&gt;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="$thview" value="$this-&gt;view-&gt;$END$" description="$this-&gt;view-&gt;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="$thwidget" value="$this-&gt;widget-&gt;$END$" description="$this-&gt;widget-&gt;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="new crit" value="$criteria = new Criteria();&#10;$END$" description="define new criteria" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="$threq" value="$this-&gt;request-&gt;$END$" description="$this-&gt;request-&gt;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="ptag" value="&lt;?php $END$ ?&gt;" description="new php tag" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
