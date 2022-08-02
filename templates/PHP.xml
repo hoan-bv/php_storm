@@ -10,4 +10,9 @@
       <option name="PHP" value="true" />
     </context>
   </template>
+  <template name="eol" value="echo PHP_EOL;&#10;        print_r($END$);&#10;        echo PHP_EOL;&#10;        die;" description="echo command" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>
